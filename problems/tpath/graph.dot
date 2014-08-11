@@ -1,0 +1,21 @@
+graph tlotr
+{
+	node[shape=circle];
+	rankdir=LR;
+	a [shape=doublecircle];
+	i [shape=doublecircle];
+	a -- b [label=3];
+	a -- c [label=10];
+	a -- d [label=9];
+	d -- g [label=4];
+	d -- h [label=16];
+	d -- b [label=12];
+	b -- c [label=4];
+	b -- c [label=10];
+	b -- g [label=3];
+	b -- h [label=10];
+	h -- g [label=9];
+	g -- i [label=4];
+	h -- i [label=16];
+	c -- i [label=30];
+}

@@ -1,0 +1,24 @@
+digraph g
+{
+	rankdir=LR;
+	node[shape=circle, fixedsize=true];
+	a; b;c;d;e;f;g;
+
+	node[shape=circle,penwidth=3];
+	a [shape=doublecircle, penwidth=1];
+	b [shape=doublecircle, penwidth=1];
+	c [shape=doublecircle, penwidth=1];
+	d [shape=doublecircle, penwidth=1];
+	g [shape=doublecircle, penwidth=1];
+
+	edge [dir=none,penwidth=4,color=gray50,style=dashed];
+	c -> a [label=1,penwidth=4,color=black,style=solid];
+	d -> b [label=1,penwidth=4,color=black,style=solid];
+	g -> f [label=2];
+	d -> f [label=3];
+	b -> f [label=3];
+	b -> g [label=3,penwidth=4,color=black,style=solid];
+	c -> d [label=4,penwidth=4,color=black,style=solid];
+	a -> b [label=5,penwidth=1,style=solid];
+	d -> e [label=5];
+}

@@ -1,0 +1,16 @@
+graph g {
+node[shape=rectangle];
+root [label=""];
+node0 [label=0];
+l [label=L,shape=circle];
+root -- node0 [label=0];
+root -- l [label=1];
+node1 [label=00];
+H [label=H,shape=circle];
+node0 -- node1 [label=0];
+node0 -- H [label=1];
+O [label=O,shape=circle];
+E [label=E,shape=circle];
+node1 -- O [label=0];
+node1 -- E [label=1];
+}

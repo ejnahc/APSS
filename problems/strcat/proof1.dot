@@ -1,0 +1,20 @@
+graph g {
+	node[shape=circle];
+	a [label=a];
+	x [label="x"];
+	ax2 [shape=rect,label="..."];
+	ax [shape=rect,label="..."];
+	ax2 -- ax;
+	ax -- a;
+	ax -- x;
+	b [label=b];
+	y [label="y"];
+	by [shape=rect,label="..."];
+	by -- b;
+	by -- y;
+	axby [shape=rect,label="X"];
+	axby -- ax2;
+	axby -- by;
+	root [shape=rect,label="..."];
+	root -- axby;
+};

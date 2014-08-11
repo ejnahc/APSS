@@ -1,0 +1,11 @@
+graph g {
+node1 [label=3,shape=circle];
+node2 [label=4,shape=circle];
+node3 [label=5,shape=rectangle];
+node4 [label=2,shape=rectangle];
+node5 [label=1,shape=circle];
+node6 [label=1,shape=circle];
+node4 -- node5; node4 -- node6;
+node7 [label=3,shape=circle];
+node3 -- node4; node3 -- node7;
+}

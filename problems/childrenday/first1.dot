@@ -1,0 +1,11 @@
+graph g{
+   node[shape=circle];
+   edge[color=gray50];
+0 -- 1 [labelfontsize=18,dir=forward,taillabel=1];
+1 -- 4 [labelfontsize=18,dir=forward,taillabel=1];
+2 -- 0 [labelfontsize=18,dir=forward,taillabel=1];
+3 -- 3 [labelfontsize=18,dir=forward,taillabel=1];
+4 -- 6 [labelfontsize=18,dir=forward,taillabel=1];
+5 -- 2 [labelfontsize=18,dir=forward,taillabel=1];
+6 -- 5 [labelfontsize=18,dir=forward,taillabel=1];
+}

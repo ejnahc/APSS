@@ -1,0 +1,15 @@
+graph g {
+node1 [label=12,shape=rectangle];
+node2 [label=5,shape=rectangle];
+node3 [label=2,shape=rectangle];
+node4 [label=1,shape=circle];
+node5 [label=1,shape=circle];
+node3 -- node4; node3 -- node5;
+node6 [label=3,shape=circle];
+node2 -- node3; node2 -- node6;
+node7 [label=7,shape=rectangle];
+node8 [label=3,shape=circle];
+node9 [label=4,shape=circle];
+node7 -- node8; node7 -- node9;
+node1 -- node2; node1 -- node7;
+}

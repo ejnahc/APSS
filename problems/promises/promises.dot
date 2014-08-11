@@ -1,0 +1,8 @@
+graph g {
+rankdir=LR;
+node[shape=circle];
+a -- b [label=4,penwidth=3];
+a -- c [label=2,style=dashed];
+b -- c [label=6,style=dashed];
+a -- d [label=1,penwidth=3];
+}

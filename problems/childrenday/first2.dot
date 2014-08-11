@@ -1,0 +1,32 @@
+graph g{
+   node[shape=circle];
+   edge[color=gray50];
+n0a [label=0];
+n0b [label=0,style=filled,fillcolor=gray70];
+n1a [label=1];
+n1b [label=1,style=filled,fillcolor=gray70];
+n2a [label=2];
+n2b [label=2,style=filled,fillcolor=gray70];
+n3a [label=3];
+n3b [label=3,style=filled,fillcolor=gray70];
+n4a [label=4];
+n4b [label=4,style=filled,fillcolor=gray70];
+n5a [label=5];
+n5b [label=5,style=filled,fillcolor=gray70];
+n6a [label=6];
+n6b [label=6,style=filled,fillcolor=gray70];
+n0a -- n1a [labelfontsize=18,dir=forward,taillabel=1];
+n1a -- n4b [labelfontsize=18,dir=forward,taillabel=1];
+n2a -- n0b [labelfontsize=18,dir=forward,taillabel=1];
+n3a -- n3b [labelfontsize=18,dir=forward,taillabel=1];
+n4a -- n6b [labelfontsize=18,dir=forward,taillabel=1];
+n5a -- n2b [labelfontsize=18,dir=forward,taillabel=1];
+n6a -- n5b [labelfontsize=18,dir=forward,taillabel=1];
+n0b -- n1b [labelfontsize=18,dir=forward,taillabel=1];
+n1b -- n4b [labelfontsize=18,dir=forward,taillabel=1];
+n2b -- n0b [labelfontsize=18,dir=forward,taillabel=1];
+n3b -- n3b [labelfontsize=18,dir=forward,taillabel=1];
+n4b -- n6b [labelfontsize=18,dir=forward,taillabel=1];
+n5b -- n2b [labelfontsize=18,dir=forward,taillabel=1];
+n6b -- n5b [labelfontsize=18,dir=forward,taillabel=1];
+}

@@ -1,0 +1,14 @@
+graph g {
+	node[shape=circle];
+	a [label=a];
+	x [label="x"];
+	ax [shape=rect,label="..."];
+	ax -- a;
+	ax -- x;
+	b [label=b];
+	axb [shape=rect,label="X"];
+	axb -- ax;
+	axb -- b;
+	root [shape=rect,label="..."];
+	root -- axb;
+};

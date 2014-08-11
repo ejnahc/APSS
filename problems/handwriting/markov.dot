@@ -1,0 +1,26 @@
+digraph G {
+node [shape=ellipse]
+rankdir=LR;
+
+I -> I [label=1.0];
+am -> I [label=0.1];
+am -> am [label=0.6];
+am -> a [label=0.1];
+am -> boy [label=0.1];
+am -> buy [label=0.1];
+a -> I [label=0.1];
+a -> am [label=0.1];
+a -> a [label=0.6];
+a -> boy [label=0.1];
+a -> buy [label=0.1];
+boy -> I [label=0.1];
+boy -> am [label=0.1];
+boy -> a [label=0.1];
+boy -> boy [label=0.6];
+boy -> buy [label=0.1];
+buy -> I [label=0.2];
+buy -> am [label=0.2];
+buy -> a [label=0.2];
+buy -> boy [label=0.2];
+buy -> buy [label=0.2];
+}

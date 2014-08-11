@@ -1,0 +1,11 @@
+digraph g {
+node[shape=box];
+rankdir=LR;
+dog -> god [penwidth=3];
+god -> dog;
+need -> dragon;
+edge [constraint=false];
+god -> dragon;
+dragon -> need [penwidth=3];
+need -> dog [penwidth=3];
+}

@@ -1,0 +1,20 @@
+graph g {
+	node[shape=circle];
+	a [label=3];
+	b [label=1];
+	c [label=1];
+	d [label=3];
+	e [label=4];
+	f [label=2,shape=box];
+	f -- b;
+	f -- c;
+	g [label=5,shape=box];
+	g -- f;
+	g -- a;
+	h [label=7,shape=box];
+	h -- d;
+	h -- e;
+	i [label=12,shape=box];
+	i -- g;
+	i -- h;
+};

@@ -1,0 +1,21 @@
+graph g {
+	node[shape=circle];
+	 e [label=3];
+	 f [label=1];
+	 i [label=3];
+	 j [label=4];
+	 h [label=1];
+	 g [label=7,shape=box];
+	 c [label=4,shape=box];
+	 d [label=8,shape=box];
+	 b [label=12,shape=box];
+
+	 b -- c;
+	 b -- d;
+	 c -- e;
+	 c -- f;
+	 d -- g;
+	 d -- h;
+	 g -- i;
+	 g -- j;
+};

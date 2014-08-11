@@ -1,0 +1,9 @@
+graph g {
+	node[shape=circle];
+	rankdir=LR;
+	0 [shape=doublecircle];
+	1 [shape=doublecircle];
+	2 [shape=doublecircle];
+	4 -- 0 -- 1 -- 2 -- 5;
+	1 -- 3 [rank=same];
+}

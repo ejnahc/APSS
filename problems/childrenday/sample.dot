@@ -1,0 +1,22 @@
+graph g{
+node[shape=circle];
+edge[color=gray50];
+0 -- 3 [labelfontsize=18,dir=forward,taillabel=3,penwidth=3,color=gray30];
+0 -- 5 [labelfontsize=18,dir=forward,taillabel=5,penwidth=3,color=gray30];
+1 -- 4 [labelfontsize=18,dir=forward,taillabel=3,labelangle=30];
+1 -- 6 [labelfontsize=18,dir=forward,taillabel=5];
+2 -- 5 [labelfontsize=18,dir=forward,taillabel=3];
+2 -- 7 [labelfontsize=18,dir=forward,taillabel=5];
+3 -- 6 [labelfontsize=18,dir=forward,taillabel=3];
+3 -- 8 [labelfontsize=18,dir=forward,taillabel=5,penwidth=3,color=gray30];
+4 -- 7 [labelfontsize=18,dir=forward,taillabel=3,labelangle=30];
+4 -- 0 [labelfontsize=18,dir=forward,taillabel=5];
+5 -- 8 [labelfontsize=18,dir=forward,taillabel=3,penwidth=3,color=gray30];
+5 -- 1 [labelfontsize=18,dir=forward,taillabel=5];
+6 -- 0 [labelfontsize=18,dir=forward,taillabel=3];
+6 -- 2 [labelfontsize=18,dir=forward,taillabel=5];
+7 -- 1 [labelfontsize=18,dir=forward,taillabel=3,labelangle=30];
+7 -- 3 [labelfontsize=18,dir=forward,taillabel=5];
+8 -- 2 [labelfontsize=18,dir=forward,taillabel=3,labelangle=30];
+8 -- 4 [labelfontsize=18,dir=forward,taillabel=5];
+}

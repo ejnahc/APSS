@@ -1,0 +1,28 @@
+digraph G
+{
+	node [fixedsize=true,width=0.7,shape=box]
+	node [style=filled,penwidth=3]; ALL AND FISH FOR SO THANKS THE;
+	node [style="",penwidth=1]; A AL AN F FI FIS FO S T TH THA THAN THANK;
+	empty [label=""];
+
+	empty -> A [label="A"];
+	empty -> F [label="F"];
+	empty -> S [label="S"];
+	empty -> T [label="T"];
+	A -> AL [label="L"];
+	A -> AN [label="N"];
+	AL -> ALL [label="L"];
+	AN -> AND [label="D"];
+	F -> FI [label="I"];
+	FI -> FIS [label="S"];
+	FIS -> FISH [label="H"];
+	F -> FO [label="O"];
+	FO -> FOR [label="R"];
+	S -> SO [label="O"];
+	T -> TH [label="H"];
+	TH -> THA [label="A"];
+	THA -> THAN [label="N"];
+	THAN -> THANK [label="K"];
+	THANK -> THANKS [label="S"];
+	TH -> THE [label="E"];
+}
