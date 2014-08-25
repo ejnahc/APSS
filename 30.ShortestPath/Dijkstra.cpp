@@ -3,6 +3,8 @@
 // 정점의 개수
 int V;
 
+const int INF = 987654321;
+
 // 그래프의 인접 리스트로 (연결된 정점 번호, 간선 가중치) 를 담는다
 vector<pair<int, int> > adj[MAX_V];
 vector<int> dijkstra(int src) {
