@@ -7,6 +7,10 @@ vector<vector<int> > adj;
 
 // 무향 그래프의 인접 행렬 adj가 주어질 때 오일러 서킷을 계산한다
 // 결과로 얻어지는 circuit을 뒤집으면 오일러 서킷이 된다
+
+// 주의! 오일러 서킷임을 보장하지 않음.
+// 조건 1: circuit[0] == circuit[circuit.size()-1] 인지 체크.
+// 조건 2: degree가 odd인 vertice가 있는지 확인.
 void getEulerCircuit(int here, vector<int>& circuit) {
     for (int there=0; there<adj.size(); ++there) {
         while (adj[here][there] > 0) {
