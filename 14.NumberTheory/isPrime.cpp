@@ -19,10 +19,8 @@ bool isPrime(int n) {
 
 
 // 에라토스테네스의 체
-int n;
 bool isPrime[MAX_N+1];
-
-void eratosthenes() {
+void eratosthenes(int n) {
 	memset(isPrime, 1, sizeof(isPrime));
 
 	isPrime[0] = isPrime[1] = false;
